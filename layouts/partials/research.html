@@ -1,6 +1,7 @@
 {{ with .Site.Data.research }}
   <section class="thirteen columns">
-    <h1>{{ .name }}</h1>
+    <h1><u>{{ .name }}</u></h1>
+    <h2> <u>Current Interests:</u> {{ .interests }}</h2>
     {{ range .source }}
     <article>
       <header>
