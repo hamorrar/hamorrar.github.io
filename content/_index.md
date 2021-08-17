@@ -14,5 +14,5 @@ For more check out my academic & professional [resume].
 Contact me by [email].
 
 [projects]: /projects
-[resume]: https://demo.nurlan.co/hugo-vitae/
+[resume]: https://hilalmorrar.com/vitae/
 [email]: mailto:hamorrar@ucsc.edu

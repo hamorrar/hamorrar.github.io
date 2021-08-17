@@ -1,17 +1,17 @@
-baseURL = "https://hilalmorrar.com/"
+baseurl = "https://hilalmorrar.com/"
 languageCode = "en-US"
 title = "Hilal Morrar"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
-theme = "hugo-sustain"
+theme = "hugo-sustain-vitae"
 
 [permalinks]
   post = "/:year/:month/:day/:slug"
 
 [params]
-  avatar = "img/profile.png"
+  avatar = "profile.png"
   author = "Hilal Morrar"
   description = "My professional portfolio and blog!"
 
@@ -21,8 +21,14 @@ theme = "hugo-sustain"
 
 [params.social]
   Github        = "hamorrar"
-  Email         = "hamorrar@ucsc.edu"
+  Email         = "email@hamorrar@ucsc.edu"
   LinkedIn      = "hilal-morrar"
+
+[params.vitae]
+  website = "Website"
+  website_full = "https://hilalmorrar.com"
+  city = "Bay Area"
+  country = "United States"
 
 ## Main Menu
 [[menu.main]]
@@ -39,4 +45,4 @@ theme = "hugo-sustain"
   name = "resume"
   identifier = "resume"
   weight = 300
-  url = "/resume/"
+  url = "/vitae/"
