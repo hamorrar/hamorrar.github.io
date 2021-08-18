@@ -12,7 +12,7 @@ source:
     description: Six week residential research program at UC Davis for high school students. Conducted and led a plant biology research project about plant pathogen localization and microscopy for a professor with the advisement of a graduate student. Wrote a formal research paper adhering to journal publication standards and presented project findings.
 
   - prof: Applied Machine Learning Lab Student Researcher
-    place: University of California, Davis
+    place: University of California, Santa Cruz
     time: August 2020 to present
     description: Helping a Ph.D student on their projects on cognitve electrophysiology and time series analyis to make machine models predict anxiety and direction of movements with various model architectures such as Deep Recurrent and Convolutional Neural Networks. Gaining experience in university level research, reading literature, Python jupyter notebooks, and Kubernetes.
   

@@ -1,0 +1,13 @@
+name: Skills and Technologies
+source:
+  - type: Programming Languages
+    name: [Python, C]
+    stars: 4
+
+  - type: Technologies
+    name: [Git]
+    stars: 3
+
+  - type: Programming Languages
+    name: [Go]
+    stars: 2

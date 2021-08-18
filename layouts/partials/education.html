@@ -1,6 +1,6 @@
 {{ with .Site.Data.education }}
   <section class="thirteen columns">
-    <h1><u>{{ .name }}</u></h1>
+    <h1><b><u>{{ .name }}</u></b></h1>
     {{ range .source }}
     <article>
       <header>
@@ -16,8 +16,12 @@
           {{ with .type }}
             {{ title . }}:
           {{ end }}
-          {{ .description }}
         </em>
+          {{ .description }}
+          
+        
+        <br>
+          <em>Coursework: </em>{{ .coursework }}
       </p>
     </article>
     {{ end }}

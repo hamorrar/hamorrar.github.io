@@ -1,16 +1,16 @@
 {{ with .Site.Data.skills }}
   <section class="thirteen columns">
-    <h1><u>{{ .name }}</u></h1>
+    <h1><b><u>{{ .name }}</u></b></h1>
+    {{ range .source }}
     <article>
       <header>
-        <h1>{{ .title }}</h1>
+        <h1>{{ .type }}</h1>
       </header>
-      {{ range .source }}
       <p>
         {{ range $i, $seq := (seq .stars) }}<i class="fa fa-star"></i>{{ end }}{{ range $i, $seq := (seq (sub 5 (int .stars))) }}<i class="fa fa-star-o"></i>{{ end }}
           &nbsp;&nbsp;<em>{{ delimit .name "</em>, <em>" "</em> & <em>" }}</em>
       </p>
-      {{ end }}
     </article>
+    {{ end }}
   </section>
 {{ end }}
