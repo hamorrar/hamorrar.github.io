@@ -1,0 +1,13 @@
+name: Technologies
+source:
+  - name: [Windows, MacOS]
+    stars: 5
+
+  - name: [Google Colabs, Jupyter Notebook, TensorFlow, Pytorch, Keras]
+    stars: 4
+
+  - name: [Linux, Command line/Terminal, Git]
+    stars: 3
+
+  - name: [Docker, Kubernetes]
+    stars: 2
