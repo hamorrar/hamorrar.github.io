@@ -21,14 +21,13 @@ theme = "hugo-sustain-vitae"
 
 [params.social]
   Github        = "hamorrar"
-  Email         = "email@hamorrar@ucsc.edu"
+  Email         = "hamorrar@ucsc.edu"
   LinkedIn      = "hilal-morrar"
 
 [params.vitae]
-  website = "Website"
   website_full = "https://hilalmorrar.com"
-  city = "Bay Area"
-  country = "United States"
+  city = "Bay Area,"
+  country = "California"
 
 ## Main Menu
 [[menu.main]]

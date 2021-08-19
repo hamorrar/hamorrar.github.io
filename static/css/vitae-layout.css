@@ -45,7 +45,7 @@ header > h1 {
 }
 
 .vitae-container > header p, .vitae-container > header address {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .vitae-container > header p:last-child {
