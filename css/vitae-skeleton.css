@@ -23,7 +23,7 @@
 
     .vitae-container                                  { position: relative; width: 96 0px; margin: 0 auto; padding: 0; }
     .vitae-container .column,
-    .vitae-container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+    .vitae-container .columns                         { float: left; display: inline; margin-left: 40px; margin-right: 40px; }
     .row                                        { margin-bottom: 20px; }
 
     /* Nested Column Classes */
