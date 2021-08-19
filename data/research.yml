@@ -1,18 +1,18 @@
 name: Research
 interests: Machine Learning and Distributed/Operating Systems
 source:
-  - prof: Waksman Student Scholars Program (WSSP) Student Researcher, Prinicpal Investigator
-    place: Tracy High School, Tracy, CA
-    time: August 2015 to May 2018
-    description: One year long molecular biology and bioinformatics research program with Lawrence Livermore National Lab and Rutgers University about Duckweed (Landoltia Punctata). Student researcher for my first year and recieved training to became a PI for my following two years. Taught molecular biology & bioinformatics concepts and lab skills. Published 9 scientific works into a national biotechnology database, while mentoring 35 students through their own projects and publications each year.
-
-  - prof: Young Scholars Program (YSP) Research Intern
-    place: University of California, Davis
-    time: Summer 2017
-    description: Six week residential research program at UC Davis for high school students. Conducted and led a plant biology research project about plant pathogen localization and microscopy for a professor with the advisement of a graduate student. Wrote a formal research paper adhering to journal publication standards and presented project findings.
-
   - prof: Applied Machine Learning Lab Student Researcher
     place: University of California, Santa Cruz
     time: August 2020 to present
     description: Helping a Ph.D student on their projects on cognitve electrophysiology and time series analyis to make machine models predict anxiety and direction of movements with various model architectures such as Deep Recurrent and Convolutional Neural Networks. Gaining experience in university level research, reading literature, Python jupyter notebooks, and Kubernetes.
   
+  - prof: Young Scholars Program (YSP) Research Intern
+    place: University of California, Davis
+    time: June 2017 - August 2017
+    description: Six week residential research program at UC Davis for high school students. Conducted and led a plant biology research project about plant pathogen localization and microscopy for a professor with the advisement of a graduate student. Wrote a formal research paper adhering to journal publication standards and presented project findings.
+
+  - prof: Waksman Student Scholars Program (WSSP) Student Researcher, Prinicpal Investigator
+    place: Tracy High School, Tracy, CA
+    time: August 2015 to May 2018
+    description: One year long molecular biology and bioinformatics research program with Lawrence Livermore National Lab and Rutgers University about Duckweed (Landoltia Punctata). Student researcher for my first year and recieved training to became a PI for my following two years. Taught molecular biology & bioinformatics concepts and lab skills. Published 9 scientific works into a national biotechnology database, while mentoring 35 students through their own projects and publications each year.
+
