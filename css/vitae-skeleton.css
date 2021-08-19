@@ -28,7 +28,7 @@
     }
     
     .vitae-container .columns {
-        float: left; display: inline; margin-left: 400px; margin-right: -300px;
+        float: left; display: inline; margin-left: 15%; margin-right: -10%;
     }
 
     .row{
