@@ -1,5 +1,5 @@
 {{ with .Site.Data.languages }}
-  <section class="thirteen columns">
+  <section>
     <h1><b><u>Skills</u></b></h1>
     <h2><b>{{ .name }}</b></h2>
     {{ range .source }}
@@ -17,7 +17,7 @@
 {{ end }}
 
 {{ with .Site.Data.technologies}}
-<section class="thirteen columns">
+<section>
   <h2><b>{{ .name }}</b></h2>
   {{ range .source }}
   <article>
