@@ -3,7 +3,7 @@ source:
   - name: [Windows, MacOS]
     stars: 5
 
-  - name: [Google Colabs, Jupyter Notebook, TensorFlow, Pytorch, Keras]
+  - name: [Google Colabs, Jupyter Notebook, TensorFlow, Pytorch, Keras, LaTeX]
     stars: 4
 
   - name: [Linux, Command line/Terminal, Git]
