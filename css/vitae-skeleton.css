@@ -23,8 +23,12 @@
         position: relative; width: 96 0px; margin: 0 auto; padding: 0; 
     }
 
-    .vitae-container .column, .vitae-container .columns {
-        float: left; display: inline; margin-left: 100px; margin-right: 0px;
+    .vitae-container .column {
+        float: left; display: inline; margin-left: 400px; margin-right: -300px;
+    }
+    
+    .vitae-container .columns {
+        float: left; display: inline; margin-left: 400px; margin-right: -300px;
     }
 
     .row{
@@ -45,7 +49,7 @@
     }
     
     .vitae-container .thirteen.columns {
-        width: 760px;
+        width: 800px;
     }
     
     .vitae-container .one-third.column { 
