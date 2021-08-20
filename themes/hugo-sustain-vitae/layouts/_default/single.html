@@ -6,8 +6,8 @@
       {{ partial "header" . }}
       {{ if (ne (strings.TrimSuffix "/projects/" .URL) .URL) }}
         {{ .Render "projects" }}
-      {{ else if (ne (strings.TrimSuffix "/vitae/" .URL) .URL) }}
-        {{ .Render "vitae" }}
+      {{ else if (ne (strings.TrimSuffix "/resume/" .URL) .URL) }}
+        {{ .Render "resume" }}
       {{ else }}
       <div class="container">
         <div class="blog-post">
