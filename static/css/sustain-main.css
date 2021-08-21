@@ -4,7 +4,7 @@ html, body {
   background-color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
-  border-top: 3px solid #27A822;
+  border-top: 5px solid #27A822;
 }
 
 /* Wrapper for page content to push down footer */
@@ -25,21 +25,38 @@ html, body {
 .navbar-default {
   background-color: #ffffff;
   border-color: #ffffff;
+  border: none;
 }
+
 .navbar-default .navbar-brand {
+  font-size: 175%;
   color: #6b6b6b;
 }
+
+/* Changes color of the home in top left when hovered */
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #6b6b6b;
+  background-color: #27A822;
+  color: #ffffff;
+  border-radius: 2% 2% 27% 27%;
 }
 .navbar-default .navbar-text {
   color: #6b6b6b;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #6b6b6b;
+  font-size: 120%;
+  font-weight: 600;
 }
+
+/* Changes background color of the right side links of navbar when hovered */
+.navbar-default .navbar-nav > li > a:hover {
+  /* color: #6b6b6b; */
+  background-color: #27A822;
+  border-radius: 2% 2% 27% 27%;
+}
+
+/* Changes color of text in right side links of navbar when hovered */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #6b6b6b;
+  color: #ffffff;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #6b6b6b;
