@@ -1,8 +1,6 @@
 baseurl = "https://hilalmorrar.com/"
 languageCode = "en-US"
 title = "Hilal Morrar"
-# Enable comments by entering your Disqus shortname
-disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 theme = "hugo-sustain-vitae"

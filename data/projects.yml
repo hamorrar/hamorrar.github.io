@@ -1,0 +1,10 @@
+name: Projects
+source:
+  - name: Portfolio Website and Blog
+    ghicon: fa fa-github
+    blogicon: fa fa-comment
+    linkicon: fa fa-link
+    ghlink: https://github.com/hamorrar/hamorrar.github.io
+    bloglink: /blog/portfolio
+    linklink: https://hilalmorrar.com/
+    description: Professional portolio and blogging website made with Hugo to showcase my projects, skills, and document my experiences. First project involving web development, self taught.
