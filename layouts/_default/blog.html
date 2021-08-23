@@ -4,7 +4,7 @@
       <!-- Header -->
       {{ partial "header" . }}
       <div class="container">
-        <h3>{{ .Content }}</h3>
+        <h3>Blog Archive</h3>
           <div class="panel panel-default">
             <div class="panel-body">
             {{ range .Data.Pages.ByPublishDate.Reverse }}
