@@ -1,10 +1,13 @@
 name: Projects
 source:
   - name: Portfolio Website and Blog
-    ghicon: fa fa-github
-    blogicon: fa fa-comment
-    linkicon: fa fa-link
     ghlink: https://github.com/hamorrar/hamorrar.github.io
     bloglink: /blog/portfolio
     linklink: https://hilalmorrar.com/
     description: Professional portolio and blogging website made with Hugo to showcase my projects, skills, and document my experiences. First project involving web development, self taught.
+  
+  - name: FASTA Parser 
+    ghlink: https://github.com/hamorrar/FASTA-Parser
+    bloglink:
+    linklink:
+    description: Senior computational biology and bioinformatics project designed to take in a large text file of DNA sequences to parse, filter, and format for NCBI's BLAST tools for further data analysis. Written in Java. 
