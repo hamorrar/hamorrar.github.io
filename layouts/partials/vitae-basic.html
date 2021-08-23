@@ -1,9 +1,7 @@
-<header class="three columns vitae-basic">
+<header id="reshead" class="three columns vitae-basic">
   <img src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" class="me">
   <h1>{{ .Site.Params.author }}</h1>
-  <p>
-    <a href="tel:{{ .Site.Params.vitae.tel_full }}">{{ .Site.Params.vitae.tel }}</a>
-  </p>
+
   <address>
       <div>{{ .Site.Params.vitae.address }}</div>
       <div>{{ .Site.Params.vitae.postcode }}</div>
