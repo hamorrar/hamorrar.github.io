@@ -2,7 +2,7 @@ baseurl = "https://hilalmorrar.com/"
 languageCode = "en-US"
 title = "Hilal Morrar"
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "G-4YPYXTC9N7"
 theme = "hugo-sustain-vitae"
 
 [permalinks]
