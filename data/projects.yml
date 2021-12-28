@@ -11,6 +11,18 @@ source:
     bloglink:
     linklink:
     description: Website to help UCSC students (particiularly incoming freshmen and transfers) find answers to common questions, appropriate resources for their concerns, and understand how to navigate student life at UCSC based on my experiences as a student and tutor. The website will feature sections on UCSC and UC news, on/off campus housing, and student employment. Second web development project with Hugo, Python for NLP, and Go/Python for API calls. Work in progress.
+
+  - name: Key-Value Store
+    ghlink: 
+    bloglink:
+    linklink:
+    description: This is a distributed, fault tolerant, causually consistent, sharded, in-memory key-value store. I worked in a team environment to organize feature implementation according to specifications. We held regular team meetings to assess progress and discuss system design. This project was completely iteratively by adding one or two of the above properties at a time. The system works locally with Docker containers and networks. GitHub link coming soon.
+
+  - name: Connect4 AI
+    ghlink: https://github.com/hamorrar/connect4
+    bloglink:
+    linklink:
+    description: Built a Connect4 AI to play against a human, random move player, or another AI with a simple user interface. Implemented Alpha-Beta and ExpectiMax algorithms for the AI to use against other AI agents or players.
   
   - name: FASTA Parser 
     ghlink: https://github.com/hamorrar/FASTA-Parser
