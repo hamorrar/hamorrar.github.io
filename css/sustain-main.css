@@ -171,8 +171,13 @@ a:hover {
   color: #000;
 }
 .avatar {
-  padding-top: 5%;
+  padding-top: 0%;
 }
+
+h3{
+  margin-top: 12px;
+}
+
 .blog-post{
   padding-top: 15px;
 }
