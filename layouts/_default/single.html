@@ -4,9 +4,9 @@
 
       <!-- Header -->
       {{ partial "header" . }}
-      {{ if (ne (strings.TrimSuffix "/projects/" .URL) .URL) }}
+      {{ if (ne (strings.TrimSuffix "/projects/" .Permalink) .Permalink) }}
         {{ .Render "projects" }}
-      {{ else if (ne (strings.TrimSuffix "/resume/" .URL) .URL) }}
+      {{ else if (ne (strings.TrimSuffix "/resume/" .Permalink) .Permalink) }}
         {{ .Render "resume" }}
       {{ else }}
       <div class="container">
