@@ -1,9 +1,0 @@
-name: Education
-source:
-  - title: B.S. in Computer Science
-    univ: University of California, Santa Cruz
-    place: Santa Cruz, CA
-    date: September 2018 to June 2022
-    type: Undergraduate
-    description: 3.43 GPA, 2x Dean's Honor.
-    coursework: Data Structures and Algorithms, Applied Machine Learning, Artifical Intelligence, Analysis of Algorithms, Applied Bayesian Statistics (Graduate), Operating Systems, Distributed Systems, Parallel Programming, Software Eningeering, Numerical Analysis.
