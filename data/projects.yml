@@ -13,6 +13,6 @@ source:
 
   - name: Portfolio Website and Blog
     ghlink: https://github.com/hamorrar/hamorrar.github.io
-    bloglink: /blog/portfolio
+    bloglink:
     linklink: https://hilalmorrar.com/
     description: Professional portolio and blogging website made with Hugo to showcase my projects, skills, and document my experiences. First project involving web development, self taught, work in progress.

@@ -28,11 +28,11 @@ theme = "hugo-sustain-vitae"
   country = "California"
 
 ## Main Menu
-[[menu.main]]
-  name = "blog"
-  weight = 100
-  identifier = "blog"
-  url = "/blog/"
+# [[menu.main]]
+#  name = "blog"
+#  weight = 100
+#  identifier = "blog"
+#  url = "/blog/"
 [[menu.main]]
   name = "projects"
   identifier = "projects"
