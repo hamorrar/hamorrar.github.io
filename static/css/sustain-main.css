@@ -119,6 +119,12 @@ a:hover {
   margin: 2rem auto;
   max-width: 100%;
 }
+.pfp{
+  display: block;
+  height: 250px;
+  width: 250px;
+  margin: 2rem auto;
+}
 .panel-default h4 {
   text-align: left;
   line-height: 24px;
