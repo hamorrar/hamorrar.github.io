@@ -12,12 +12,13 @@ interface ProjectCardProps {
   description: string
   tags: string[]
   image: string
-  link: string
+  // link: string
   github: string
   index: number
 }
+// export default function ProjectCard({ title, description, tags, image, link, github, index }: ProjectCardProps) {
 
-export default function ProjectCard({ title, description, tags, image, link, github, index }: ProjectCardProps) {
+export default function ProjectCard({ title, description, tags, image, github, index }: ProjectCardProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -42,12 +43,12 @@ export default function ProjectCard({ title, description, tags, image, link, git
                   Code
                 </a>
               </Button>
-              <Button size="sm" asChild>
+              {/* <Button size="sm" asChild>
                 <a href={link} target="_blank" rel="noopener noreferrer" aria-label={`View ${title} live demo`}>
                   <ExternalLink className="h-4 w-4 mr-2" />
                   Demo
                 </a>
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>

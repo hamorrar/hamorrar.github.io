@@ -52,79 +52,73 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "E-commerce Platform",
-      description: "Full-stack e-commerce solution with payment processing and inventory management",
-      tags: ["React", "Node.js", "MongoDB", "Stripe"],
-      image: "/placeholder.svg?height=400&width=600",
-      link: "#",
-      github: "#",
-    },
-    {
-      title: "Task Management App",
-      description: "Collaborative project management tool with real-time updates and team communication",
-      tags: ["Next.js", "Socket.io", "PostgreSQL", "AWS"],
-      image: "/placeholder.svg?height=400&width=600",
-      link: "#",
-      github: "#",
-    },
-    {
-      title: "Weather Analytics Dashboard",
-      description: "Data visualization dashboard showing weather patterns with interactive charts",
-      tags: ["Vue.js", "D3.js", "Python", "FastAPI"],
-      image: "/placeholder.svg?height=400&width=600",
-      link: "#",
-      github: "#",
+      title: "Connect4 Artificial Intelligence Agent",
+      description: "An AI agent that plays Connect4 against a real user, a random move player, or another AI.",
+      tags: ["Python"],
+      image: "/connect4.png?height=400&width=600",
+      github: "https://github.com/hamorrar/connect4",
     },
   ]
 
   const experiences = [
     {
-      company: "TechCorp Inc.",
-      position: "Senior Software Engineer",
-      period: "2021 - Present",
+      company: "Cisco Systems - Duo Security",
+      position: "Software Engineer Intern",
+      period: "May 2024 - August 2024",
       location: "San Francisco, CA",
       description: [
-        "Led development of microservices architecture serving 10M+ users",
-        "Reduced application load time by 40% through performance optimization",
-        "Mentored 5 junior developers and established code review best practices",
+      "Improved an internal performance testing tool by adding a feature using Python, AWS EC2, and MySQL to dynamically create simulated customers and production HTTP requests.",
+      "Executed load testing suites with GitHub CI/CD pipelines to monitor and validate software release performance metrics for 50k users using Datadog, Grafana, and Kibana dashboards for observability and incident response.",
+      "Diagnosed and fixed deployment issues in Kubernetes clusters with Python and Docker, contributing to improved system reliability and reducing the risk of service degradation or on-call incidents."
       ],
     },
     {
-      company: "StartupXYZ",
-      position: "Software Engineer",
-      period: "2019 - 2021",
+      company: "Stealth Startup",
+      position: "Software Engineer Intern",
+      period: "May 2023 - August 2023",
       location: "Remote",
       description: [
-        "Built full-stack web applications using React, Node.js, and PostgreSQL",
-        "Designed and implemented RESTful APIs handling 1M+ requests daily",
-        "Collaborated with product team to deliver features ahead of schedule",
+        "Designed and implemented a REST API for a distributed, fault tolerant, consistent, and sharded key-value store using Go and Docker.",
+        "Utilized Goroutines for concurrency when handling client and internal HTTP requests for system communication.",
+        "Developed resharding algorithm and internal API routes to support dynamic replica coordination and data rebalancing, and Bash scripts to automate setup/teardown processes to improve development efficiency by 30%."
       ],
     },
     {
-      company: "DevSolutions LLC",
-      position: "Junior Software Developer",
-      period: "2018 - 2019",
-      location: "New York, NY",
+      company: "Applied Machine Learning Lab",
+      position: "Machine Learning Engineer",
+      period: "September 2020 - August 2021",
+      location: "Santa Cruz, CA",
       description: [
-        "Developed responsive web applications using modern JavaScript frameworks",
-        "Participated in agile development process and daily standups",
-        "Wrote unit tests achieving 90%+ code coverage",
+        "Led the design and training efforts of various neural network model architectures to make predictions based on time-series data with PyTorch.",
+        "Achieved 95% accuracy as measured by model validation metrics by tuning machine learning models with hyperparameter optimization, regularization, and pruning.",
+        "Reduced model training time by 50% by improving data processing pipeline and distributing training in a Kubernetes GPU cloud cluster."
       ],
     },
+    {
+      company: "Resilient Renewable Efficient Energy Systems",
+      position: "Frontend Software Engineer",
+      period: "July 2020 - September 2020",
+      location: "Santa Cruz, CA",
+      description: [
+        "Built a user interface to register IoT devices using React, JavaScript, and AWS S3 for data storage in collaboration with hardware and product teams.",
+        "Coordinated end to end integration with backend services on AWS EC2, ensuring smooth device onboarding and monitoring workflows.",
+        "Raised user experience and accessibility scores by 17% based on Lighthouse audits by optimizing data handling, adding client-side input validation, and implementing UI fixes."
+      ],
+    }
   ]
 
   const education = [
     {
       degree: "Bachelor of Science in Computer Science",
-      institution: "Stanford University",
-      period: "2014 - 2018",
-      location: "Stanford, CA",
+      institution: "University of California, Santa Cruz",
+      period: "September 2018 - June 2022",
+      location: "Santa Cruz, CA",
     },
     {
-      degree: "Full Stack Web Development Bootcamp",
-      institution: "General Assembly",
-      period: "2018",
-      location: "San Francisco, CA",
+      degree: "Masters of Science in Computer Science",
+      institution: "University of Texas at Austin",
+      period: "August 2023 – December 2024",
+      location: "Austin, TX",
     },
   ]
 
@@ -136,7 +130,7 @@ export default function Portfolio() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <MapPin className="h-4 w-4 text-muted-foreground" />
-              <span className="text-sm text-muted-foreground hidden sm:inline">San Francisco, CA</span>
+              <span className="text-sm text-muted-foreground hidden sm:inline">United States</span>
             </div>
 
             <nav className="flex items-center space-x-3 sm:space-x-6 bg-background/80 backdrop-blur-md rounded-full px-3 sm:px-6 py-2 border border-border">
@@ -213,7 +207,7 @@ export default function Portfolio() {
             >
               <Image
                 src="/placeholder.svg?height=120&width=120"
-                alt="Alex Chen"
+                alt="Hilal Morrar"
                 width={120}
                 height={120}
                 className="rounded-full border-4 border-border"
@@ -227,14 +221,11 @@ export default function Portfolio() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="space-y-4 max-w-3xl"
             >
-              <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight">Alex Chen</h1>
+              <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight">Hilal Morrar</h1>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-medium text-primary">Software Engineer</h2>
 
               <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mt-6">
-                Developer based in San Francisco, USA. I specialize in building exceptional digital experiences with a
-                focus on performance and user experience. With 6+ years of experience, I'm passionate about creating
-                efficient, scalable solutions to complex problems using modern technologies like React, Node.js, and
-                cloud platforms.
+                I'm a software engineer focused on building reliable systems, developer tooling, and scalable infrastructure.
               </p>
 
               <div className="flex justify-center mt-8">
@@ -324,13 +315,16 @@ export default function Portfolio() {
             >
               <Card className="h-full">
                 <CardContent className="p-4 sm:p-6">
-                  <h3 className="font-semibold mb-4 text-lg">Frontend</h3>
+                  <h3 className="font-semibold mb-4 text-lg">Languages</h3>
                   <div className="flex flex-wrap gap-2">
-                    <Badge variant="secondary">React</Badge>
-                    <Badge variant="secondary">Next.js</Badge>
-                    <Badge variant="secondary">TypeScript</Badge>
-                    <Badge variant="secondary">Tailwind CSS</Badge>
-                    <Badge variant="secondary">Vue.js</Badge>
+                    <Badge variant="secondary">Assembly</Badge>
+                    <Badge variant="secondary">C</Badge>
+                    <Badge variant="secondary">C++</Badge>
+                    <Badge variant="secondary">Go</Badge>
+                    <Badge variant="secondary">HTML/CSS</Badge>
+                    <Badge variant="secondary">Java</Badge>
+                    <Badge variant="secondary">Javascript</Badge>
+                    <Badge variant="secondary">Python</Badge>
                   </div>
                 </CardContent>
               </Card>
@@ -344,13 +338,17 @@ export default function Portfolio() {
             >
               <Card className="h-full">
                 <CardContent className="p-4 sm:p-6">
-                  <h3 className="font-semibold mb-4 text-lg">Backend</h3>
+                  <h3 className="font-semibold mb-4 text-lg">Frameworks/Libraries</h3>
                   <div className="flex flex-wrap gap-2">
-                    <Badge variant="secondary">Node.js</Badge>
-                    <Badge variant="secondary">Python</Badge>
-                    <Badge variant="secondary">PostgreSQL</Badge>
-                    <Badge variant="secondary">MongoDB</Badge>
-                    <Badge variant="secondary">GraphQL</Badge>
+                    <Badge variant="secondary">Agile</Badge>
+                    <Badge variant="secondary">Gin</Badge>
+                    <Badge variant="secondary">Keras</Badge>
+                    <Badge variant="secondary">NumPy</Badge>
+                    <Badge variant="secondary">PyTorch</Badge>
+                    <Badge variant="secondary">React</Badge>
+                    <Badge variant="secondary">TensorFlow</Badge>
+                    <Badge variant="secondary">pandas</Badge>
+                    <Badge variant="secondary">scikit-learn</Badge>
                   </div>
                 </CardContent>
               </Card>
@@ -364,12 +362,17 @@ export default function Portfolio() {
             >
               <Card className="h-full">
                 <CardContent className="p-4 sm:p-6">
-                  <h3 className="font-semibold mb-4 text-lg">Cloud & DevOps</h3>
+                  <h3 className="font-semibold mb-4 text-lg">Developer Tools</h3>
                   <div className="flex flex-wrap gap-2">
-                    <Badge variant="secondary">AWS</Badge>
+                    <Badge variant="secondary">Atlassian</Badge>
                     <Badge variant="secondary">Docker</Badge>
+                    <Badge variant="secondary">Git</Badge>
+                    <Badge variant="secondary">Jira</Badge>
                     <Badge variant="secondary">Kubernetes</Badge>
-                    <Badge variant="secondary">CI/CD</Badge>
+                    <Badge variant="secondary">Linux/Unix</Badge>
+                    <Badge variant="secondary">MySQL</Badge>
+                    <Badge variant="secondary">PostgreSQL</Badge>
+                    <Badge variant="secondary">Slack</Badge>
                     <Badge variant="secondary">Terraform</Badge>
                   </div>
                 </CardContent>
@@ -403,7 +406,7 @@ export default function Portfolio() {
                 description={project.description}
                 tags={project.tags}
                 image={project.image}
-                link={project.link}
+                // link={project.link}
                 github={project.github}
                 index={index}
               />
@@ -417,7 +420,7 @@ export default function Portfolio() {
         <div className="container max-w-5xl mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Alex Chen. All rights reserved.
+              © {new Date().getFullYear()} Hilal Morrar. All rights reserved.
             </p>
             <div className="flex items-center space-x-4 mt-4 md:mt-0">
               <Button variant="ghost" size="sm">
