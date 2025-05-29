@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Github, Mail, MapPin, Clock, ChevronDown } from "lucide-react"
+import { Github, Mail, MapPin, Clock, ChevronDown, Linkedin } from "lucide-react"
 import { motion } from "framer-motion"
 import { cn } from "@/lib/utils"
 import Link from "next/link"
@@ -133,7 +133,7 @@ export default function Portfolio() {
               <span className="text-sm text-muted-foreground hidden sm:inline">United States</span>
             </div>
 
-            <nav className="flex items-center space-x-3 sm:space-x-6 bg-background/80 backdrop-blur-md rounded-full px-3 sm:px-6 py-2 border border-border">
+            <nav className="flex items-center space-x-2 sm:space-x-4 bg-background/80 backdrop-blur-md rounded-full px-3 sm:px-6 py-2 border border-border">
               <Link
                 href="#home"
                 className={cn(
@@ -184,7 +184,38 @@ export default function Portfolio() {
               >
                 Projects
               </Link>
-              <ThemeToggle />
+
+              {/* Social Icons */}
+              <div className="flex items-center space-x-1 ml-2 pl-2 border-l border-border">
+                <Button variant="ghost" size="icon" className="w-8 h-8" asChild>
+                  <a href="mailto:hilalmorrar@gmail.com" aria-label="Send email">
+                    <Mail className="h-4 w-4" />
+                  </a>
+                </Button>
+                <Button variant="ghost" size="icon" className="w-8 h-8" asChild>
+                  <a
+                    href="https://github.com/hamorrar"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub profile"
+                  >
+                    <Github className="h-4 w-4" />
+                  </a>
+                </Button>
+                <Button variant="ghost" size="icon" className="w-8 h-8" asChild>
+                  <a
+                    href="https://linkedin.com/in/hilalmorrar"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn profile"
+                  >
+                    <Linkedin className="h-4 w-4" />
+                  </a>
+                </Button>
+              </div>
+
+
+            <ThemeToggle />
             </nav>
 
             <div className="flex items-center space-x-2">
