@@ -5,7 +5,7 @@ import { useState, useEffect } from "react"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { MapPin, Clock, ChevronDown } from "lucide-react"
+import { MapPin, Clock, ChevronDown, Download, Mail } from "lucide-react"
 import { motion } from "framer-motion"
 import { cn } from "@/lib/utils"
 import Link from "next/link"
@@ -60,6 +60,14 @@ export default function Portfolio() {
       image: "/connect4.png?height=400&width=600",
       github: "https://github.com/hamorrar/connect4",
     },
+
+    {
+      title: "JuiceFS Extension",
+      description: "A distributed file system extension to support a new object storage API.",
+      tags: ["AWS EC2, Go"],
+      image: "/juicefs.svg?height=400&width=600",
+      github: "https://github.com/hamorrar/juicefs/tree/1655",
+    },
   ]
 
   const experiences = [
@@ -69,9 +77,9 @@ export default function Portfolio() {
       period: "May 2024 - August 2024",
       location: "San Francisco, CA",
       description: [
-      "Improved an internal performance testing tool by adding a feature using Python, AWS EC2, and MySQL to dynamically create simulated customers and production HTTP requests.",
-      "Executed load testing suites with GitHub CI/CD pipelines to monitor and validate software release performance metrics for 50k users using Datadog, Grafana, and Kibana dashboards for observability and incident response.",
-      "Diagnosed and fixed deployment issues in Kubernetes clusters with Python and Docker, contributing to improved system reliability and reducing the risk of service degradation or on-call incidents."
+      "Engineered a new feature to an internal performance load testing tool using Python, AWS EC2, and MySQL to dynamically create simulated customers and production HTTP requests.",
+      "Created reports for software release tests executed with GitHub CI/CD pipelines to monitor performance metrics for 50,000+ concurrent users with Datadog, Grafana, and Kibana dashboards.",
+      "Resolved faulty pod monitoring in Kubernetes deployments using Python to eliminate silent job failures or stalled pods and saved 10% on AWS resources."
       ],
     },
     {
@@ -80,9 +88,9 @@ export default function Portfolio() {
       period: "May 2023 - August 2023",
       location: "Remote",
       description: [
-        "Designed and implemented a REST API for a distributed, fault tolerant, consistent, and sharded key-value store using Go and Docker.",
-        "Utilized Goroutines for concurrency when handling client and internal HTTP requests for system communication.",
-        "Developed resharding algorithm and internal API routes to support dynamic replica coordination and data rebalancing, and Bash scripts to automate setup/teardown processes to improve development efficiency by 30%."
+        "Designed a RESTful API and implemented DELETE request functionality for a distributed, fault-tolerant, and consistent key-value store using Go and Docker.",
+        "Developed internal API routes to support dynamic server coordination, data rebalancing, and Bash scripts to automate setup/teardown processes to improve development efficiency by 30%.",
+        "Utilized Goroutines for concurrency when handling client and internal HTTP requests for system communication."
       ],
     },
     {
@@ -91,9 +99,9 @@ export default function Portfolio() {
       period: "September 2020 - August 2021",
       location: "Santa Cruz, CA",
       description: [
-        "Led the design and training efforts of various neural network model architectures to make predictions based on time-series data with PyTorch.",
-        "Achieved 95% accuracy as measured by model validation metrics by tuning machine learning models with hyperparameter optimization, regularization, and pruning.",
-        "Reduced model training time by 50% by improving data processing pipeline and distributing training in a Kubernetes GPU cloud cluster."
+        "Led the design and training efforts of various CNN model architectures for time-series data with PyTorch.",
+        "Achieved 95% accuracy by tuning machine learning models with hyperparameter optimization.",
+        "Distributed model training with PyTorch DDP in a Kubernetes GPU cloud for a 50% reduction in training time."
       ],
     },
     {
@@ -102,9 +110,9 @@ export default function Portfolio() {
       period: "July 2020 - September 2020",
       location: "Santa Cruz, CA",
       description: [
-        "Built a user interface to register IoT devices using React, JavaScript, and AWS S3 for data storage in collaboration with hardware and product teams.",
-        "Coordinated end to end integration with backend services on AWS EC2, ensuring smooth device onboarding and monitoring workflows.",
-        "Raised user experience and accessibility scores by 17% based on Lighthouse audits by optimizing data handling, adding client-side input validation, and implementing UI fixes."
+        "Built a registration UI using React, JavaScript, and AWS S3 for an IoT device with hardware and product teams.",
+        "Coordinated end to end integration with backend services on AWS EC2 to ensure smooth device onboarding.",
+        "Optimized data handling and client-side input validation to raise user experience and accessibility scores by 17% based on Google Lighthouse audits."
       ],
     }
   ]
@@ -113,7 +121,7 @@ export default function Portfolio() {
     {
       degree: "Masters of Science in Computer Science",
       institution: "University of Texas at Austin",
-      period: "August 2023 - December 2024",
+      period: "August 2023 - May 2025",
       location: "Austin, TX",
     },
     {
@@ -236,12 +244,18 @@ export default function Portfolio() {
                 I'm a software engineer focused on building reliable systems, developer tooling, and scalable infrastructure.
               </p>
 
-              <div className="flex justify-center mt-8">
-                <Link href="mailto:hilalmorrar@gmail.com" rel="noopener noreferrer" target="_blank">
+              <div className="flex justify-center gap-4 mt-8">
+                <Link href="mailto:hilalmorrar@gmail.com" rel="noopener noreferrer" target="_blank"/>
+                <Button size="lg" className="rounded-full" asChild>
+                  <Link href="/Hilal-Morrar-Resume.pdf" download="Hilal-Morrar-Resume.pdf" target="_blank">
+                  <Download className="h-4 w-4 mr-2" />
+                    Resume
+                  </Link>
+                </Button>
                 <Button size="lg" className="rounded-full">
+                <Mail className="h-4 w-4 mr-2" />
                   Get in Touch
                 </Button>
-                </Link>
               </div>
             </motion.div>
           </div>

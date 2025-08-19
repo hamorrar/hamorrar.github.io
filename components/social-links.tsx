@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Github, Mail, Linkedin, type LucideIcon } from "lucide-react"
+import { Github, Mail, Linkedin, type LucideIcon, Download } from "lucide-react"
 
 // Define the type for social configuration
 interface SocialConfigItem {
@@ -34,6 +34,13 @@ export const socialConfig: Record<string, SocialConfigItem> = {
     text: "LinkedIn",
     external: true,
   },
+  resume: {
+  href: "/Hilal-Morrar-Resume.pdf",
+  label: "Download resume",
+  icon: Download,
+  text: "Resume",
+  external: true
+}
 }
 
 interface SocialLinksProps {
